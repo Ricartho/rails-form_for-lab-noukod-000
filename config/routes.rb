@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   # ressources :schoolClasses, only: [:index,:show,:new,:create,:edit,:update]
   # ressources :students, only: [:index,:show,:new,:create,:edit,:update]
- resources :students,:schoolclasses
+ resources :students,:school_classes
 end
